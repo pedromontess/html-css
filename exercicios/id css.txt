@@ -1,0 +1,6 @@
+em HTML é id = em CSS é #
+em HTML é class = em CSS é .
+
+quando usar id e quando usar class
+id= quando vai mexer em 1 elemento só
+class= quando quer mexer em varios

@@ -1,0 +1,48 @@
+header = cabeçalho
+main = conteudo principal
+footer = rodapé
+nav = menu
+article = artigo
+aside = usado para representar conteúdo que está relacionado ao conteúdo principal, mas que não faz parte diretamente dele
+section = seçao para dividir documento de forma organizada
+
+
+
+border radius da pra fzer uma bola usando 50%
+root = tem acesso a todos os documentos 
+criar variavel com root dentro do css é só 
+:root {
+    --var01 : 	
+}
+
+comando global para cancelar todos os paddings e margins
+*{ seletor global
+}
+
+maximo de 800px
+e minimo de 400px ou seja, se passar de 800 ele vai manter em 800 e se abaixar de 400 vai manter em 400
+
+max width:800
+min width:320
+margin auto pra ficar no centro
+pra ajustar a imagem
+img { 
+   width: 100%
+}
+
+ou dentro de img envelopa como um picture
+e faz uma source media 	max width com o srcset com a menor img
+
+fazer a imagem ficar menor só pelo css é transformar a img em um block = display block e depois width 50% exemplo e margin auto pra centralizar
+
+degrade= background image : linear gradient 
+
+  text-align: justify; alinhar texto
+line-height: 1em; espaçamento do texto
+text-indent: 30px;  espaçamento inicial do texto
+text in
+
+list-style-position: inside; pra botar UL com a bolinha pra dentro
+  columns: 2; pra botar colunas
+
+centralizar video:> 

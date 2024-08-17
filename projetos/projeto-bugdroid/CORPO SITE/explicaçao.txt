@@ -1,0 +1,1 @@
+sempre que tiver um comando dentro de outro, se for mexer n css é > pra indicar filho
