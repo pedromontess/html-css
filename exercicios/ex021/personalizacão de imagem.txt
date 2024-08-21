@@ -1,0 +1,9 @@
+background-image: adiciona a img
+backgroud-size: tamanho da imagem adicionada
+background-repeat: configurar repetiçoes de imagem
+background-position: posiçao da img
+
+height: vh: altura da view 
+
+background-size: contain ; mostrar imagem 100% exibida
+background-size: cover ; cobrir a tela inteira mesmo picotando a imagem
