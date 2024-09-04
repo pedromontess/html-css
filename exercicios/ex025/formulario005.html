@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: lightgray;
+      padding: 10px;
+    }
+    
+    
+    legend{
+      font-weight: bolder;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+    <h1>exemplo</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+          <p>
+              <label for="iemail">Email:</label>
+              <input type="email" name="email" id="iemail"
+                required
+                placeholder="digite seu email"
+                autocomplete="email"
+              >
+          </p>
+          <p>
+              <label for="isenha">Senha:</label>
+              <input type="password" name="senha" id="isenha"
+                required
+                min="5"
+                max="15"
+              >
+          </p>
+          <p>
+              <label for="itelefone">Telefone para contato:</label>
+              <input type="tel" name="telefone" id="itelefone"
+                autocomplete="tel"
+                required
+                pattern="^/(/d{2})[0-9]$"
+                placeholder="(xx)xxxxxxxxx"
+                >
+          </p>
+        </fieldset>
+
+
+        <p>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Apagar">
+        </p>
+      
+    </form>
+</body>
+</html>
